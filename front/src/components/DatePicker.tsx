@@ -1,9 +1,8 @@
 
-import React from "react";
-
-function DatePicker() {
+import * as React from "react"
+export function DatePicker() {
     return (
-        <div className="datePicker-container">
-        </div>
-    );
+    <p>This is a date picker</p>
+    )
 }
+export default DatePicker;
